@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  box-sizing: border-box;
+  border: 0.5rem solid black;
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  background-color: rgb(161, 104, 139);
+}
+.timer h1 {
+  padding: 15px;
+  color: rgb(220, 224, 213);
+}
+
+#restart {
+  background-color: blue;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#edit {
+  background-color: blue;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#active-OR-NOT {
+  background-color: blue;
+  margin: 20px;
+  border-radius: 10%;
+}
